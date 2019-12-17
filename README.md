@@ -1290,7 +1290,8 @@ Now that our `getAllTreasure` endpoint is working including responding with appr
           all: treasure.data
         }
       })
-    }).catch( error => alert(error.response.request.response))
+      .catch( error => alert(error.response.request.response))
+    })
   }
 ```
 
